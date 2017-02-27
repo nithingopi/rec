@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: rec
+  host: rec
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-4e
+  - Speech to Text-h0
+  - Speech to Text-zy
